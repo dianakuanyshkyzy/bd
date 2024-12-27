@@ -38,14 +38,6 @@ export default function Wishes() {
         image: "/images/bd7.png",
         wish: "You deserve all the love and happiness life can offer!",
     },
-    {
-        image: "/images/bd8.png",
-        wish: "You deserve all the love and happiness life can offer!",
-      },
-      {
-        image: "/images/bd9.png",
-        wish: "You deserve all the love and happiness life can offer!",
-      },
   ];
 
   const handleModalToggle = (wish = "") => {
@@ -96,7 +88,7 @@ export default function Wishes() {
           color: "#333",
         }}
       >
-        From {["Diana", "Leila", "Amirlan", "Michael", "Akerke", "Damira", "Aigerim", "Ksu", "Aya"][index % 9]}: {/* Rotates between names */}
+        From {["Diana", "Leila", "Amirlan", "Michael", "Akerke", "Damira", "Aigerim"][index % 7]}: {/* Rotates between names */}
       </p>
       {/* Image */}
       <img
