@@ -47,7 +47,7 @@ export default function Home() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, ease: 'easeInOut' }}
           style={{
-            fontSize: '7rem',
+            fontSize: '6rem',
             fontWeight: 'bold',
             color: '#DA498D', // Elegant deep purple
             textShadow: '3px 3px #ffc0cb', // Baby pink shadow for festivity
